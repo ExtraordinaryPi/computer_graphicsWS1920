@@ -1,3 +1,0 @@
-/home/christian/CLionProjects/computerGraphics1920/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/christian/CLionProjects/computerGraphics1920/cmake-build-debug/CMakeFiles/computerGraphics1920.dir
-/home/christian/CLionProjects/computerGraphics1920/cmake-build-debug/CMakeFiles/edit_cache.dir

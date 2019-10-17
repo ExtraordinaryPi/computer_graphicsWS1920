@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/computerGraphics1920.dir/main.cpp.o CMakeFiles/computerGraphics1920.dir/exercise_1/assignment1_1.cpp.o CMakeFiles/computerGraphics1920.dir/exercise_1/assignment1_2.cpp.o  -o computerGraphics1920 
