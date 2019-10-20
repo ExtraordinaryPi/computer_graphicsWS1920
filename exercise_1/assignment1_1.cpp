@@ -23,18 +23,14 @@ double circleCalculation() {
     while (falseInput) {
         cin >> stringCheck;
         falseInput = false;
-
         try {
             radius = std::stod(stringCheck);
         }
         catch (std::invalid_argument &) {
-            cout << "Invalid Entry\nOnly numbers from 0-9 and dots. Please enter a new one" << std::endl;
+            cout << "Invalid Entry\nOnly numbers from 0-9 and dots. Please enter a new one" << endl;
             falseInput = true;
         }
-        if(stringCheck != to_string(radius)){
-            cout << "Invalid Entry\nOnly numbers from 0-9 and dots. Please enter a new one" << std::endl;
-            falseInput = true;
-        }
+
     }
     return radius * 2 * pi;
 }
