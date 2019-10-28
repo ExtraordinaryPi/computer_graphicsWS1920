@@ -1,0 +1,39 @@
+\documentclass{article}
+
+\usepackage{listings}
+
+\title{Solution Exercise 1}
+
+\author{
+    Marek Legris \and
+    Roman Pulgrabja \and
+    Christian Moses \and
+    Patrick Neidig
+}
+
+\begin{document}
+    \maketitle
+
+    \lstset{language=C++}
+
+    \section{Idioms}
+        \subsection{Argument passing}
+            The preferable choices are 1.3, 2.3 and 3.4 respectively.\\
+
+            \begin{lstlisting}
+                double square(double value);
+            \end{lstlisting}
+            The value of \verb|value| gets passed, so a new place in memory has to be allocated.\\
+            
+            \begin{lstlisting}
+                double square(double& value);
+            \end{lstlisting}
+            A reference to \verb|value| gets passed, so we don't need a new place in memory, but changes will persist outside of the scope of the function.\\
+
+            \begin{lstlisting}
+                double square(double const& value);
+            \end{lstlisting}
+            A reference to \verb|value| gets passed, but it can't be changed, which eliminates the last problem.\\
+
+            \verb|std::string_view| prevents copying of string, which eliminates the need of \verb|std::string const& message|, which would be the preferable solution when using an older \verb|C++| standard.\\
+\end{document}
