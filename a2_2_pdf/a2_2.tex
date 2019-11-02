@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{siunitx}
+
+\title {ICG: Exercise Sheet 3}
+\author{
+    Legris \and
+    Pulgrabja \and
+    \"Ozteke
+}
+
+\begin{document}
+    \maketitle
+
+    \section*{Assignment 2.2}
+        Consider a display with a UHD resolution (3840 x 2160 pixels),
+        with a refresh rate of 60 Hz
+        \subsubsection*{Q: How much time may the generation of a single pixel at most
+                take? For the sake of simplicity, ignore any potential overhead in the
+                process of the pixel generation.}
+
+            \textbf{A:}
+            \begin{align*}
+                \text{Time for frame} &= \frac 1{60 \text{ Hz}}\\
+                    &\approx 0.017 \\
+                \text{Time for single pixel} &\approx \frac{0.017}{3840 \cdot 2160}\\
+                    &\approx \num{2.01e+9}\\
+            \end{align*}
+        
+        \subsubsection*{Q: For the signal transmission from the graphics card to the
+                monitor, assume a data load of 24 bit per pixel, and shortly explain
+                why this assumption is meaningful. Afterwards, determine the bandwidth
+                (in GB/s) of a cable that connects such a monitor}
+            
+            \textbf{A:}
+            A color is contained in 3 \(\cdot\) 8 bit: 255 values for each (r, g, b) channel.\\
+            \begin{align*}
+                \text{Pixel}/\text{s} &= 3840 \cdot 2160 \cdot 60 \text{ Hz}\\
+                    &= 49,766,400 \cdot \text{s}^{-1}\\
+                \text{GB}/\text{s} &= 24 \text{bit} \cdot 49,766,400 \cdot \text{s}^{-1}\\
+                    &\approx \num{1.19e+10} \text{ bit} / \text{s}\\
+                    &\approx 1.49 \text{ GB} / \text{s}
+            \end{align*}
+
+\end{document}

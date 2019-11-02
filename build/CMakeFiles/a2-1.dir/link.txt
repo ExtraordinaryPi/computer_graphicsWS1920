@@ -1,0 +1,1 @@
+/usr/bin/g++-9  -g  -rdynamic CMakeFiles/a2-1.dir/a2-1.cpp.o  -o a2-1 
