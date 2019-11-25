@@ -1,0 +1,19 @@
+﻿  PointLight.cpp
+cl : befehlszeile warning D9035: Die Option "Gm" ist veraltet und wird in einer der nächsten Versionen entfernt.
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1581,13): warning C4244: "return": Konvertierung von "double" in "T", möglicher Datenverlust
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1581,13): warning C4244:         with
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1581,13): warning C4244:         [
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1581,13): warning C4244:             T=float
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1581,13): warning C4244:         ]
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1567): message : Siehe Verweis auf die gerade kompilierte Instanziierung "T length<float,3>(const vector<T,3> &)" der Funktions-Vorlage.
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1567): message :         with
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1567): message :         [
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1567): message :             T=float
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\include\HLSL\HLSL.h(1567): message :         ]
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\src\Raytracer\Scenes\PointLight.cpp(19): message : Siehe Verweis auf die gerade kompilierte Instanziierung "T distance<float,3>(const vector<T,3> &,const vector<T,3> &)" der Funktions-Vorlage.
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\src\Raytracer\Scenes\PointLight.cpp(19): message :         with
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\src\Raytracer\Scenes\PointLight.cpp(19): message :         [
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\src\Raytracer\Scenes\PointLight.cpp(19): message :             T=float
+C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\src\Raytracer\Scenes\PointLight.cpp(19): message :         ]
+main.obj : warning LNK4075: /EDITANDCONTINUE wird aufgrund der Angabe von /SAFESEH ignoriert.
+  Raytracer.vcxproj -> C:\Users\mlegr\Google Drive\Code\ICG\EX05\raytracing2\Debug\Raytracer.exe
